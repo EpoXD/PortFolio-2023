@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Wix+Madefor+Display:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color:  #001f3f;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #032c55;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}   
+
+body{
+    font-family: 'Wix Madefor Display', sans-serif;
+
+}
+
+.bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    width: 900px;
+    height: 60px;
+    left: 300px;
+    top: 10px;
+    z-index: 1;
+    border-radius: 12px;
+    background-color: rgb(77, 0, 115);
+}
+
+.bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.bar h2 {
+    display: inline-block; 
+    margin: 0;
+    padding: 0 10px; 
+
+}
+
+.page-1 {
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    background-color: rgb(110, 19, 160);
+
+}
+
+.page-1 img {
+    border-radius: 100px;
+    margin-top: 18rem;
+}
+
+.page-1 h2{
+    color: white;
+    font-size: 30px;
+    margin-top: 13rem;
+    margin-left: 2rem
+}
+
+.page-1 p {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 20rem;
+    left: -18.3rem;
+}
+
+.page-1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-2 {
+    position: relative;
+    height: 50rem;
+    width: 100%;
+    background-color: rgb(110, 19, 160);
+}
+
+.page-2 h2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.page-2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.page-2 .img-vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page-3 {
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    background-color: rgb(110, 19, 160);
+}
+
+.page-3 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.page-3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.page-3 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    width: 100%;
+    background-color: rgb(110, 19, 160);
+    padding-bottom: 7rem;
+}
+
+.page-4 h2{ 
+    color: white;
+    font-size: 35px;
+}
+
+.page-4 p{ 
+    color: white;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page-4 .text-4{
+    margin-right: 13rem;
+}
+
+.page-4 .icons{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+ 
+.page-4 .icons .instagram{
+    text-decoration: none;
+    color: #b823b3;
+}
+
+.page-4 .icons .twitter{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.page-4  .inputs {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 12rem;
+    margin-right: 8rem;
+}
+
+.page-4 label {
+    color: white;
+    font-size: 25px;
+}
+
+.page-4 .name{
+    border: none;
+    width: 20rem;
+    height: 2.2rem;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.page-4 .name::placeholder{
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.page-4 .email{
+    border: none;
+    width: 20rem;
+    height: 2.2rem;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.page-4 .email::placeholder{
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.page-4 .textarea{
+    border: none;
+    resize: none;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+
+.page-4 .button{
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    background: rgb(158, 78, 198);
+}
+
+.page-4 .button:hover{
+    transition: 0.3s;
+    background: rgb(140, 45, 187);
+   
+}
+
+.page-4 .discord{
+    position: relative;
+}
+
+.page-4 .discord i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(76, 76, 241);
+}
+
+.page-4 .discord label{
+    color: white;
+    font-size: 30px;
+}
+
+

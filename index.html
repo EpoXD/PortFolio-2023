@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
+</head>
+<body>
+    <div>
+        <div class="bar">
+            <h2><a href="#page-1">About Me</a></h2>
+            <h2><a href="#page-2">My Projects</a></h2>
+            <h2><a href="#page-3">What I am doing right now</a></h2>
+            <h2><a href="#page-4">Contact</a></h2>
+        </div>
+
+        <div id="page-1" class="page-1">
+        <div class="container">
+            <img src="dest/img/profile.png" width="170px" height="170px"></img>
+            <h2>I am Epo 17 years old</h2>
+            <p>I have been coding for 1 year. I like learning different programming languages.<br> I also like to create complex projects because it gives more skills and logical thinking  </p>
+
+        </div>
+        </div>
+        
+        <div id="page-2" class="page-2">
+        <h2>My Coding Projects</h2>
+        <p>I have various projects, but I show my hardest project is an online game in typescript, html, css and socket.js, but it is not finished  </p>
+        <div class="img-vid">
+            <img src="/dest/img/OnlineGame-screen.png" width="710" height="450"></img>
+            <video class="video-1" controls autoplay muted loop src="/dest/img/game.mp4" width="800" height="450"></video>
+        </div>
+        <h2>Online game by Epo and Nago</h2>
+        </div>
+
+        <div id="page-3" class="page-3">
+        <h2>What I am doing right now</h2>
+        <p>I'm learning Python, and I'm building a projects in React js or Typescript</p>
+        <div class="img">
+            <img src="dest/img/Python.svg.png" width="650" height="500"></img>
+            <img src="dest/img/typescript.png" width="650" height="500"></img>
+        </div>
+        </div>
+
+        <div id="page-4" class="page-4">
+        <div class="text-4">
+            <h2>Contact Me</h2>
+            <p class="phone"><i class="fa-solid fa-phone"></i>+380 680 311 550</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/pavl0mazur/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://twitter.com/EpooXD" class="twitter"><i class="fa-brands fa-twitter"></i></a>              
+            </div>
+        </div>
+        <div class="discord">
+            <i class="fa-brands fa-discord"></i>
+            <label><br>Epo#1172</label>
+        </div>
+        <div class="inputs">
+        <form action="https://formsubmit.co/ed9ee4bf8a174b51dbff3495b9d62a80" method="POST" id="email-form">
+
+            <label>Name:</label>
+            <input type="text" name="name" id="name" class="name" placeholder="Username" maxlength="20">
+            <label>Email:</label>
+            <input type="email" name="email" id="email" class="email" placeholder="email@address.com" maxlength="20">
+            <label>Message:</label>
+            <textarea name="message" id="message" class="textarea"></textarea>
+          
+            <button id="send-email-btn" type="submit" class="button">Send</button>
+        </div>
+    </form>
+    </div>
+
+    </div>
+
+    <script src="dest/profile.js"></script>
+
+</body>
+</html>
