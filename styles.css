@@ -8,7 +8,7 @@
 
 ::-webkit-scrollbar {
     width: 10px;
-    background-color:  #001f3f;
+    background-color: rgb(77, 0, 115);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #032c55;
+    background-color: rgb(77, 0, 115);
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -38,7 +38,7 @@ body{
     height: 60px;
     left: 300px;
     top: 10px;
-    z-index: 1;
+    z-index: 2;
     border-radius: 12px;
     background-color: rgb(77, 0, 115);
 }
@@ -55,32 +55,53 @@ body{
 
 }
 
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.nav {
+    width: 20%;
+    height: 2.7rem;
+    background-color: rgb(77, 0, 115);
+    border-radius: 12px;
+}
+
+
 .page-1 {
     position: relative;
-    height: 40rem;
+    height: 50rem;
     width: 100%;
-    background-color: rgb(110, 19, 160);
+    background-color: rgb(106, 11, 161);
 
 }
 
 .page-1 img {
     border-radius: 100px;
     margin-top: 18rem;
+    margin-left: 3rem;
 }
 
 .page-1 h2{
     color: white;
     font-size: 30px;
     margin-top: 13rem;
-    margin-left: 2rem
+    margin-left: 3rem;
+    width: 25rem;
 }
 
 .page-1 p {
     position: relative;
     color: white;
     font-size: 20px;
-    margin-top: 20rem;
-    left: -18.3rem;
+    margin-top: 23rem;
+    left: -24rem;
 }
 
 .page-1 .container {
@@ -89,11 +110,38 @@ body{
     align-items: center;
 }
 
+.page-1 .skills-container {
+    width: 15rem;
+    height: 37rem;
+    background-color: rgb(77, 0, 115);
+    border-radius: 12px;
+    margin-bottom: -15rem;
+    margin-left: -8rem;
+}
+
+.page-1 .skills {
+    position: relative;
+    top: 20px;
+}
+
+.page-1 .skills h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 2.7rem;
+    margin-bottom: 2px;
+    color: white;
+    background-color: rgb(56, 2, 83);
+    border-radius: 5px;
+    width: 10rem;
+}
+
 .page-2 {
     position: relative;
-    height: 50rem;
+    height: 200rem;
     width: 100%;
-    background-color: rgb(110, 19, 160);
+    background-color: rgb(106, 11, 161);
 }
 
 .page-2 h2{ 
@@ -105,7 +153,17 @@ body{
     margin-bottom: 1rem;
 }
 
-.page-2 p{
+.page-2 h3{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    
+}
+
+.page-2 p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,18 +172,32 @@ body{
     margin-bottom: 2rem;
 }
 
-.page-2 .img-vid{
+.page-2 .img-vid {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
+.page-2 .img-vid::before {
+    position: absolute;
+    content: "";
+    width: 52rem;
+    height: 30rem;
+    background-color: rgb(77, 23, 108);
+    border-radius: 12px;
+    z-index: 0;
+}
+
+.page-2 video {
+    z-index: 1;
+}
 
 .page-3 {
     position: relative;
-    height: 40rem;
+    height: 130rem;
     width: 100%;
-    background-color: rgb(110, 19, 160);
+    background-color: rgb(106, 11, 161);
 }
 
 .page-3 h2{
@@ -134,23 +206,78 @@ body{
     align-items: center;
     color: white;
     font-size: 30px;
-    margin-bottom: 1rem;
+    margin-bottom: 7rem;
 }
 
-.page-3 p{
+.page-3 .react-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.page-3 .ts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.page-3 .node-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.page-3 .react-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 29rem;
+    margin-right: 1rem;
+    border-radius: 12px;
+    background-color: rgb(56, 76, 225);
+}
+
+.page-3 .ts-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48rem;
+    height: 29rem;
+    margin-left: 1rem;
+    border-radius: 12px;
+    background-color: rgb(20, 116, 164);
+}
+
+.page-3 .node-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48rem;
+    height: 29rem;
+    border-radius: 12px;
+    background-color: rgb(27, 183, 74);
+}
+
+.page-3 .react-h3 {
+    margin-left: 1.5rem;
+}
+
+.page-3 .ts-h3 {
+    margin-left: 3rem;
+}
+
+.page-3 .node-h3 {
+    margin-left: 3rem;
+}
+
+.page-3 h3 {
     color: white;
-    font-size: 20px;
-    margin-bottom: 2rem;
 }
 
-.page-3 .img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .page-4 {
     display: flex;
@@ -158,24 +285,31 @@ body{
     align-items: center;
     height: 50rem;
     width: 100%;
-    background-color: rgb(110, 19, 160);
+    background-color: rgb(106, 11, 161);
     padding-bottom: 7rem;
 }
 
-.page-4 h2{ 
+.page-4 h2 { 
     color: white;
     font-size: 35px;
 }
 
-.page-4 p{ 
+.page-4 p { 
     color: white;
     font-size: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.page-4 .text-4{
+.page-4 .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 10rem;
     margin-right: 13rem;
+    border-radius: 12px;
+    background-color: rgb(77, 23, 108);
 }
 
 .page-4 .icons{
@@ -194,11 +328,29 @@ body{
     color: cornflowerblue;
 }
 
+.page-4 .icons .twitter{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.page-4 .icons .github{
+    text-decoration: none;
+    color: white;
+}
+
+.page-4 .inputs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    width: 22rem;
+    height: 19rem;
+    border-radius: 12px;
+    background-color: rgb(77, 23, 108);
+}
+
 .page-4  .inputs {
-    width: 10rem;
-    height: 10rem;
-    margin-left: 12rem;
-    margin-right: 8rem;
+    width: 20rem;
 }
 
 .page-4 label {
@@ -260,22 +412,4 @@ body{
     background: rgb(140, 45, 187);
    
 }
-
-.page-4 .discord{
-    position: relative;
-}
-
-.page-4 .discord i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    color: rgb(76, 76, 241);
-}
-
-.page-4 .discord label{
-    color: white;
-    font-size: 30px;
-}
-
 

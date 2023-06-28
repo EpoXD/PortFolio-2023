@@ -5,7 +5,7 @@ linkPage1.addEventListener("click", function (e) {
     e.preventDefault();
     let page2Top = ((_a = document.getElementById(`page-1`)) === null || _a === void 0 ? void 0 : _a.getBoundingClientRect().top) || 0;
     window.scrollBy({
-        top: page2Top - 80,
+        top: page2Top - 50,
         left: 0,
         behavior: `smooth`
     });
@@ -16,7 +16,7 @@ linkPage2.addEventListener("click", function (e) {
     e.preventDefault();
     let page2Top = ((_a = document.getElementById(`page-2`)) === null || _a === void 0 ? void 0 : _a.getBoundingClientRect().top) || 0;
     window.scrollBy({
-        top: page2Top - 80,
+        top: page2Top - 50,
         left: 0,
         behavior: `smooth`
     });
@@ -27,7 +27,7 @@ linkPage3.addEventListener("click", function (e) {
     e.preventDefault();
     let page2Top = ((_a = document.getElementById(`page-3`)) === null || _a === void 0 ? void 0 : _a.getBoundingClientRect().top) || 0;
     window.scrollBy({
-        top: page2Top - 80,
+        top: page2Top - 50,
         left: 0,
         behavior: `smooth`
     });
@@ -38,7 +38,7 @@ linkPage4.addEventListener("click", function (e) {
     e.preventDefault();
     let page2Top = ((_a = document.getElementById(`page-4`)) === null || _a === void 0 ? void 0 : _a.getBoundingClientRect().top) || 0;
     window.scrollBy({
-        top: page2Top - 80,
+        top: page2Top - 50,
         left: 0,
         behavior: `smooth`
     });
