@@ -91,9 +91,9 @@ body{
 .page-1 h2{
     color: white;
     font-size: 30px;
-    margin-top: 13rem;
+    margin-top: 12rem;
     margin-left: 3rem;
-    width: 25rem;
+    width: 27rem;
 }
 
 .page-1 p {
@@ -101,7 +101,7 @@ body{
     color: white;
     font-size: 20px;
     margin-top: 23rem;
-    left: -24rem;
+    left: -25rem;
 }
 
 .page-1 .container {
@@ -112,7 +112,7 @@ body{
 
 .page-1 .skills-container {
     width: 15rem;
-    height: 37rem;
+    height: 39.5rem;
     background-color: rgb(77, 0, 115);
     border-radius: 12px;
     margin-bottom: -15rem;
@@ -194,92 +194,6 @@ body{
 }
 
 .page-3 {
-    position: relative;
-    height: 130rem;
-    width: 100%;
-    background-color: rgb(106, 11, 161);
-}
-
-.page-3 h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 30px;
-    margin-bottom: 7rem;
-}
-
-.page-3 .react-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.page-3 .ts-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15rem;
-}
-
-.page-3 .node-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15rem;
-}
-
-.page-3 .react-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50rem;
-    height: 29rem;
-    margin-right: 1rem;
-    border-radius: 12px;
-    background-color: rgb(56, 76, 225);
-}
-
-.page-3 .ts-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 48rem;
-    height: 29rem;
-    margin-left: 1rem;
-    border-radius: 12px;
-    background-color: rgb(20, 116, 164);
-}
-
-.page-3 .node-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 48rem;
-    height: 29rem;
-    border-radius: 12px;
-    background-color: rgb(27, 183, 74);
-}
-
-.page-3 .react-h3 {
-    margin-left: 1.5rem;
-}
-
-.page-3 .ts-h3 {
-    margin-left: 3rem;
-}
-
-.page-3 .node-h3 {
-    margin-left: 3rem;
-}
-
-.page-3 h3 {
-    color: white;
-}
-
-
-
-.page-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,56 +203,56 @@ body{
     padding-bottom: 7rem;
 }
 
-.page-4 h2 { 
+.page-3 h2 { 
     color: white;
     font-size: 35px;
 }
 
-.page-4 p { 
+.page-3 p { 
     color: white;
     font-size: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.page-4 .text-container {
+.page-3 .text-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 14rem;
+    width: 13rem;
     height: 10rem;
     margin-right: 13rem;
     border-radius: 12px;
     background-color: rgb(77, 23, 108);
 }
 
-.page-4 .icons{
+.page-3 .icons{
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
 }
  
-.page-4 .icons .instagram{
+.page-3 .icons .instagram{
     text-decoration: none;
     color: #b823b3;
 }
 
-.page-4 .icons .twitter{
+.page-3 .icons .twitter{
     text-decoration: none;
     color: cornflowerblue;
 }
 
-.page-4 .icons .twitter{
+.page-3 .icons .twitter{
     text-decoration: none;
     color: cornflowerblue;
 }
 
-.page-4 .icons .github{
+.page-3 .icons .github{
     text-decoration: none;
     color: white;
 }
 
-.page-4 .inputs-container {
+.page-3 .inputs-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,16 +263,16 @@ body{
     background-color: rgb(77, 23, 108);
 }
 
-.page-4  .inputs {
+.page-3  .inputs {
     width: 20rem;
 }
 
-.page-4 label {
+.page-3 label {
     color: white;
     font-size: 25px;
 }
 
-.page-4 .name{
+.page-3 .name{
     border: none;
     width: 20rem;
     height: 2.2rem;
@@ -367,12 +281,12 @@ body{
     font-size: 20px;
 }
 
-.page-4 .name::placeholder{
+.page-3 .name::placeholder{
     font-size: 20px;
     padding-left: 2px;
 }
 
-.page-4 .email{
+.page-3 .email{
     border: none;
     width: 20rem;
     height: 2.2rem;
@@ -381,12 +295,12 @@ body{
     font-size: 20px;
 }
 
-.page-4 .email::placeholder{
+.page-3 .email::placeholder{
     font-size: 20px;
     padding-left: 2px;
 }
 
-.page-4 .textarea{
+.page-3 .textarea{
     border: none;
     resize: none;
     width: 20rem;
@@ -397,7 +311,7 @@ body{
 }
 
 
-.page-4 .button{
+.page-3 .button{
     cursor: pointer;
     color: white;
     border: 1px solid black;
@@ -407,9 +321,9 @@ body{
     background: rgb(158, 78, 198);
 }
 
-.page-4 .button:hover{
+.page-3 .button:hover{
     transition: 0.3s;
-    background: rgb(140, 45, 187);
+    background: rgb(130, 35, 187);
    
 }
 
