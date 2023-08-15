@@ -93,7 +93,7 @@ body{
     font-size: 30px;
     margin-top: 12rem;
     margin-left: 3rem;
-    width: 27rem;
+    width: 28rem;
 }
 
 .page-1 p {
@@ -112,11 +112,11 @@ body{
 
 .page-1 .skills-container {
     width: 15rem;
-    height: 39.5rem;
+    height: 42rem;
     background-color: rgb(77, 0, 115);
     border-radius: 12px;
     margin-bottom: -15rem;
-    margin-left: -8rem;
+    margin-left: -11rem;
 }
 
 .page-1 .skills {
@@ -129,12 +129,12 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin-left: 2.7rem;
+    margin-left: 2.3rem;
     margin-bottom: 2px;
     color: white;
     background-color: rgb(56, 2, 83);
     border-radius: 5px;
-    width: 10rem;
+    width: 11rem;
 }
 
 .page-2 {
@@ -150,7 +150,6 @@ body{
     align-items: center;
     color: white;
     font-size: 30px;
-    margin-bottom: 1rem;
 }
 
 .page-2 h3{ 
@@ -169,13 +168,15 @@ body{
     align-items: center;
     color: white;
     font-size: 20px;
-    margin-bottom: 2rem;
+    width: 40rem;
+    margin-left: -9rem;
 }
 
 .page-2 .img-vid {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 
 }
 
